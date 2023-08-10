@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+::root {
+  font-size: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Layout */
+body {
+  color: #2b283a;
+  font-family: "Roboto", sans-serif;
+}
+
+header,
+section,
+footer {
+  padding: 2.8125em 0px;
+}
+
+header,
+.section_two {
+  background-color: #5f29a3;
+}
+
+footer {
+  text-align: center;
+  color: #5f29a3;
+}
+
+.section_container {
+  width: 38.75em;
+  margin: 0 auto;
+}
+
+.section_two p {
+  line-height: 1.4375em;
+}
+
+.section_two {
+  color: whitesmoke;
+  width: 100%;
+}
+
+.section-two-image {
+  width: 18.75em;
+  border-radius: 0.2875em;
+}
+
+.section-two-image-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Typography */
+h1,
+h3 {
+  margin: 0;
+}
+
+h1 {
+  color: whitesmoke;
+  font-size: 2.25em;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+h3 {
+  color: #d0aaff;
+  font-size: 1.25em;
+}
+
+p {
+  margin: 1em 0;
+}
+
+.header-text {
+  width: 38.75em;
+  margin: 0 auto;
+}
+
+/* Links */
+a {
+  color: #ef5839;
+  text-decoration: underline dotted;
+}
+
+a:hover,
+a:active {
+  color: #d4b44c;
+}
+
+.button {
+  padding: 0.625em 1.1875em;
+  border-radius: 0.2875em;
+  font-weight: 500;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.button:hover {
+  background: #f3e885;
+  color: #2b283a;
+}
+
+.button-dark {
+  background: #5f29a3;
+  color: whitesmoke;
+}
+
+.button-mid {
+  background: #f0e0ff;
+  color: #5f29a3;
+}
+
+.button-light {
+  background: whitesmoke;
+  color: #5f29a3;
+}
+
+.first_image {
+  width: 100%;
+}
